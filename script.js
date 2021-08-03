@@ -7,7 +7,7 @@ const list = document.querySelector('.list')
 addBtn.addEventListener("click", () =>{ //два параметра (что обрабатываем)(функция)
     if (text.value.trim()){
         list.innerHTML += `<li>
-                               <input type="checkbox" class="done">
+                               <img src="./images/tick.png" width="30" class="done" alt="">
                                ${text.value}
                                
                                <img src="./images/close.png" class="del-btn" width="25px" alt="">

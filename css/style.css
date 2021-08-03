@@ -38,7 +38,7 @@ button{
 input{
     height: 30px;
     font-size: 20px;
-    padding: 5px;
+    padding: 8px;
 }
 .box{
     background-color: #86A8E7;
@@ -54,9 +54,12 @@ input{
 .add-btn{
     cursor: pointer;
 }
-.clear-btn{
+.clear-btn, .done{
     cursor: pointer;
 }
 .list{
     margin-top: 20px;
+}
+.title{
+    margin-right: 10px;
 }
