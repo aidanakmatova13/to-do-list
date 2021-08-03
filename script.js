@@ -23,6 +23,21 @@ list.addEventListener("click", (event)=>{ //
         event.target.parentNode.classList.toggle('line-through')
     }
 })
+
+
+document.querySelector('.text').addEventListener('keydown', function(event) {
+        if (event.keyCode === 13) {
+            list.innerHTML += `<li>
+                               <img src="./images/tick.png" width="30" class="done" alt="">
+                               ${text.value}
+                               
+                               <img src="./images/close.png" class="del-btn" width="25px" alt="">
+                          </li>`
+            text.value = ""
+        }
+});
+
+
 clearBtn.addEventListener("click", () =>{
     list.innerHTML = ""
 })
