@@ -47,8 +47,7 @@ input{
     height: 500px;
     border: 2px solid black;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.79);
-}
+    box-shadow: 11px 18px 29px 5px rgba(0,0,0,0.79);}
 .del-btn{
     cursor: pointer;
 }
