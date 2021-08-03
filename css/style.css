@@ -1,0 +1,63 @@
+ul{
+    list-style: none;
+}
+.line-through{
+    text-decoration: line-through;
+}
+h1, img{
+    display: inline;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500px;
+    margin: auto;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 5px;
+    cursor: pointer;
+}
+input{
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+.box{
+    background-color: #86A8E7;
+    padding: 15px;
+    margin-top: 50px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.79);
+}
+.del-btn{
+    cursor: pointer;
+}
+.add-btn{
+    cursor: pointer;
+}
+.clear-btn{
+    cursor: pointer;
+}
+.list{
+    margin-top: 20px;
+}
